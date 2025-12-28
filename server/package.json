@@ -1,0 +1,33 @@
+{
+  "name": "rt-collab-code-editor-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "nodemon src/server.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "groq-sdk": "^0.8.0",
+    "helmet": "^7.1.0",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.0",
+    "openai": "^4.73.0",
+    "p-queue": "^8.0.1",
+    "socket.io": "^4.8.1",
+    "ws": "^8.18.0",
+    "y-websocket": "^2.0.3",
+    "yjs": "^13.6.18"
+  },
+  "devDependencies": {
+    "eslint": "^9.14.0",
+    "nodemon": "^3.1.7"
+  }
+}
