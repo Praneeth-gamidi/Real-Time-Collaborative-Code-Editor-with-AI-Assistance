@@ -16,7 +16,7 @@
     "express": "^4.21.1",
     "groq-sdk": "^0.8.0",
     "helmet": "^7.1.0",
-    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.8.0",
     "openai": "^4.73.0",

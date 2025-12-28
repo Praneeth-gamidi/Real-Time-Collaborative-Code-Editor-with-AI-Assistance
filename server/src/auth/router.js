@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import { connectDB, UserModel, useMongo } from '../db.js';
 import { signToken } from './middleware.js';
 
